@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sahara_navigation"
+    app:startDestination="@id/house_fragment">
+
+    <fragment
+        android:id="@+id/house_fragment"
+        android:name="com.example.musicapi.view.home.HomeFragment"
+        android:label="Home">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/favorites_fragment"
+        android:name="com.example.musicapi.view.favorites.FavoritesFragment"
+        android:label="Favorites">
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.musicapi.view.profile.ProfileFragment"
+        android:label="Home">
+    </fragment>
+</navigation>
